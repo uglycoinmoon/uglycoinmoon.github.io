@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UGLY Coin</title>
+        <link rel="shortcut icon" type="image/png" href="/zunge.png?">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="presents">
+           
+        </div>
+        <div id="date">
+            
+        </div>
+        <div id="date">
+            <h1>10.10.2021 - 9pm</h1>
+        </div>
+        <div id="countdown"><!-- Display the countdown timer in an element -->
+            <p id="demo"></p>
+            
+            <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Oct 09, 2021 21:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+            
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+            
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              // Display the result in the element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+            
+              // If the count down is finished, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Die Party läuft gerade!";
+              }
+            }, 1000);
+            </script></div>
+        <div>
+            <a href="https://www.google.com/maps/place/Anton-B%C3%B6ck-Stra%C3%9Fe+31,+81249+M%C3%BCnchen/@48.1360557,11.4116405,17z/data=!3m1!4b1!4m5!3m4!1s0x479dd7c229a189df:0x9cc0a987a0840b4d!8m2!3d48.1360521!4d11.4138292"><img src="maps.svg" alt="Google Maps" style="width: 789,34px;height: 150px;margin-bottom: 20px;"></a>
+        </div>
+        <div id="location">
+            
+        </div>
+        <div id="sbahn">
+            
+        </div>
+        <div id="timetable">
+
+        </div>
+    </body>
+</html>
