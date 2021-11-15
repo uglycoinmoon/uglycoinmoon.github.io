@@ -10,10 +10,6 @@ div {
     text-align: center;
 }
 
-.red {
-    color: red;
-}
-
 #teaser {
     font-family: 'Stick No Bills', sans-serif;
     font-size: 6vw;
@@ -24,6 +20,18 @@ div {
 img {
     max-width: 50%;
     height: auto;
+}
+
+#buytext {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 4vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.red {
+    color: red;
 }
 
 #date {
