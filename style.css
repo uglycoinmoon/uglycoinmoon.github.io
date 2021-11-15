@@ -29,10 +29,16 @@ img {
 
 #buytext {
     font-family: 'Stick No Bills', sans-serif;
-    font-size: 4vw;
-    padding-top: 40px;
+    font-size: 8vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     padding-bottom: 40px;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 #mail {
