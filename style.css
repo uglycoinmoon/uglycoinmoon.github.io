@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 
 body {
     background-image: url("background.jpg");
@@ -13,12 +14,11 @@ div {
     color: red;
 }
 
-#presents {
-    font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 150px;
+#teaser {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 80px;
     margin-bottom: -50px;
-    font-weight: bold;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
