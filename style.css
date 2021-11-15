@@ -10,6 +10,11 @@ div {
     text-align: center;
 }
 
+.container-fluid {
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: bold;
+}
+
 #teaser {
     font-family: 'Stick No Bills', sans-serif;
     font-size: 6vw;
@@ -18,7 +23,7 @@ div {
 }
 
 img {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -28,6 +33,13 @@ img {
     padding-top: 40px;
     padding-bottom: 40px;
     text-decoration: none;
+}
+
+#mail {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .red {
