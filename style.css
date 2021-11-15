@@ -17,8 +17,13 @@ div {
 #teaser {
     font-family: 'Stick No Bills', sans-serif;
     font-size: 6vw;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
 }
 
 #date {
