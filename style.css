@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 
 body {
-    background-image: url("background.jpg");
+    background-image: url("/data/background.jpg");
 }
 
 div {
@@ -46,6 +46,28 @@ a {
     font-size: 3vw;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+#vision {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#vision2 {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#list {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .red {
