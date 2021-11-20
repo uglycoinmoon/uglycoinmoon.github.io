@@ -22,6 +22,10 @@ div {
     padding-bottom: 40px;
 }
 
+#logo {
+    margin-bottom: 5vw;
+}
+
 img {
     max-width: 40%;
     height: auto;
